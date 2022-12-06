@@ -1,1 +1,28 @@
-/* test */
+#contact {
+  background-color: aqua;
+}
+#contact:hover {
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+@keyframes crescendo {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+#about {
+  background-color: red;
+  transition: transform 1s;
+}
+#about:hover {
+  transform: skew(-20deg);
+}
+#portfolio {
+  background-color: yellow;
+  transition: width 2s ease-out 500ms;
+}
+#portfolio:hover {
+  width: 1000px;
+}
