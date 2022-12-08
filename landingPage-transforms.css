@@ -1,1 +1,8 @@
-/* test */
+#contact, #about, #portfolio {
+    background-color: rgb(170, 170, 255);
+    border-radius: 5px;
+    transition: transform 1s;    
+}
+#contact:hover, #about:hover, #portfolio:hover {
+      transform: scale(1.15);
+    }
